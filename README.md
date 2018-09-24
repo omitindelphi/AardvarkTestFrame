@@ -42,6 +42,8 @@ it is for developer to decide. Reference to agent form may be guarded by DEBUG c
 Generally, DUnit[X] test object creates counterpart of inside agent, aware of state of debugged VCL application uder test, detect visibility of the forms, established selections, and direct imitation of mouse clicks and key strokes to debugged application.
 
 ##Comminication between Test Runner and testee.
-By default, inside agent report match between Delphi WinControl name and Window handle, ComboBox items, ComboBox itemIndex, PageControl headers and their screen positions, 
+
+By default, inside agent report match between Delphi WinControl name and Window handle, ComboBox items, ComboBox ItemIndex, PageControl captions and their screen positions, Grid contents, SpeedButton positions
+
 
 
